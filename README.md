@@ -28,9 +28,10 @@ Fetches a random quiz item from the MongoDB collection.
 
 ```json
 {
-  "question": "What is the capital of France?",
-  "options": ["Berlin", "Madrid", "Paris", "Rome"],
-  "answer": "Paris"
+  "id": 83,
+  "title": "Which of the following is not a valid HTML tag?",
+  "options": ["<p>", "<div>", "<section>", "<container>"],
+  "correct": "<container>"
 }
 ```
 
