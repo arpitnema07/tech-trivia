@@ -1,6 +1,3 @@
-Certainly! Here's a `README.md` file that focuses on describing the API routes of your Express application:
-
-```markdown
 # Tech Trivia API
 
 This Express application connects to a MongoDB database and provides an API to fetch a random quiz item from the collection.
@@ -10,11 +7,12 @@ This Express application connects to a MongoDB database and provides an API to f
 ### Get a Random Quiz Item
 
 #### Endpoint
+
 ```
 
 GET /quiz
 
-````
+```
 
 #### Description
 
@@ -34,7 +32,7 @@ Fetches a random quiz item from the MongoDB collection.
   "options": ["Berlin", "Madrid", "Paris", "Rome"],
   "answer": "Paris"
 }
-````
+```
 
 ## Setup and Configuration
 
