@@ -1,5 +1,6 @@
 const express = require("express");
 const { MongoClient } = require("mongodb");
+require("dotenv").config();
 
 // MongoDB connection URL and database/collection names
 const url = process.env.DATABASE_URL;
